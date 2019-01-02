@@ -5,7 +5,7 @@ import graphqlHTTP from "express-graphql";
 const app = express();
 
 mongoose.connect(
-  "mongodb://mongo/graphql",
+  "mongodb://mongo:27017/airbnb",
   { useNewUrlParser: true }
 );
 
